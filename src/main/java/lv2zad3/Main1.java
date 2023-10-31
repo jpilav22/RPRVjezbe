@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class Main1 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
         List<Double> brojevi = new ArrayList<Double>();
@@ -28,10 +28,10 @@ public class Main {
         }
 
 
-System.out.println("Srednja vrijednost brojeva: "+ Lista.srednjaVrijednost(brojevi));
-        System.out.println("Maksimalan clan liste: "+ Lista.miximalan((brojevi)));
-        System.out.println("Minimalan clan liste: "+ Lista.minimalan(brojevi));
-        System.out.println("Standardna devijacija brojeva: " + Lista.standardnaDrvijacija(brojevi));
+System.out.println("Srednja vrijednost brojeva: "+ Lista1.srednjaVrijednost(brojevi));
+        System.out.println("Maksimalan clan liste: "+ Lista1.miximalan((brojevi)));
+        System.out.println("Minimalan clan liste: "+ Lista1.minimalan(brojevi));
+        System.out.println("Standardna devijacija brojeva: " + Lista1.standardnaDrvijacija(brojevi));
 
     }
 
