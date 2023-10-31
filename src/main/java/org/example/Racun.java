@@ -2,12 +2,12 @@ package org.example;
 
 public class Racun {
 private long brojRacuna;
-private Osoba korisnikRacuna;
+private Osoba1 korisnikRacuna;
 private boolean odobrenjePrekoracenja;
 private double stanjeRacuna;
 private double prekoracenje;
 
-    public Racun(long brojRacuna , Osoba korisnikRacuna ) {
+    public Racun(long brojRacuna , Osoba1 korisnikRacuna ) {
         this.brojRacuna = brojRacuna;
         this.korisnikRacuna = korisnikRacuna;
     }

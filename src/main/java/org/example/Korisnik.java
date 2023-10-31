@@ -1,6 +1,6 @@
 package org.example;
 
-public class Korisnik extends Osoba {
+public class Korisnik extends Osoba1 {
     private Racun racun;
     public Korisnik(String ime, String prezime) {
         super(ime, prezime);
