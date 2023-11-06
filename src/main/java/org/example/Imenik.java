@@ -111,7 +111,7 @@ public class Imenik {
         Set<TelefonskiBroj> results = new TreeSet<TelefonskiBroj>(new Comparator<TelefonskiBroj>() {
             @Override
             public int compare(TelefonskiBroj o1, TelefonskiBroj o2) {
-                return o1.ispisi().compareTo(o2.print());
+                return o1.ispisi().compareTo(o2.ispisi());
             }
         });
 
